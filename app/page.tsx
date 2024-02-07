@@ -1,8 +1,6 @@
 import { FrameButton, FrameContainer, FrameImage, FrameInput, FrameReducer, NextServerPageProps, getPreviousFrame, useFramesReducer, getFrameMessage } from 'frames.js/next/server';
-import Link from 'next/link';
 import { DEBUG_HUB_OPTIONS } from './debug/constants';
-import { generateImage } from './generate-image';
-import drawMaviggle from './lib/maviggles';
+import drawMaviggle from '../lib/maviggles';
 
 type State = {
     active: string;
