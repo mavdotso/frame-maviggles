@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { createCanvas } from 'canvas';
 
 export default function drawMaviggle() {
