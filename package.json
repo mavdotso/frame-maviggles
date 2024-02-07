@@ -21,7 +21,7 @@
         "swr": "^2.2.4"
     },
     "engines": {
-        "node": "20"
+        "node": "^20.0"
     },
     "devDependencies": {
         "@types/node": "^20",
